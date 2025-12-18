@@ -1,41 +1,44 @@
-# Website
+# BIQU Wiki
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+### install requirement 
 
-## Installation
+#### ArchLinux
 
-```bash
-yarn
+``` shell
+sudo pacman -S yarn
 ```
 
-## Local Development
+#### Debian
 
-```bash
-yarn start
+``` shell
+sudo apt install yarn
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+#### Windows
 
-## Build
+First, download and install Node.js
 
-```bash
-yarn build
+Then in PowerShell use following command install yarn
+
+``` shell
+npm install --global yarn
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Install Package 
 
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
+``` shell
+cd ~/biqu-wiki
+yarn install 
 ```
 
-Not using SSH:
+### Run wiki
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
+``` shell
+yarn run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Build wiki
+
+``` shell
+yarn run build
+```
