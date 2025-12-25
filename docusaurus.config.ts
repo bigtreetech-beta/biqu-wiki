@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://www.biquwiki.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/biqu-wiki',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'bigtreetech-beta', // Usually your GitHub org/user name.
-  projectName: 'biquwiki', // Usually your repo name.
+  projectName: 'biqu-wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -80,6 +80,7 @@ const config: Config = {
           position: 'left',
           label: 'Panda Series',
         },
+        { to: 'https://neo.bttwiki.com', label: 'DIY 系列', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',

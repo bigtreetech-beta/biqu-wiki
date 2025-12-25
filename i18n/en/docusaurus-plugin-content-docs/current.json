@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Panda Touch": {
+    "message": "Panda Touch",
+    "description": "The label for category 'Panda Touch' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda Touch 扩展模块": {
+    "message": "Panda Touch Expansion Module",
+    "description": "The label for category 'Panda Touch 扩展模块' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda Touch 扩展模块.link.generated-index.description": {
+    "message": "Panda Touch Expansion Module",
+    "description": "The generated-index page description for category 'Panda Touch 扩展模块' in sidebar 'tutorialSidebar'"
+  }
+}

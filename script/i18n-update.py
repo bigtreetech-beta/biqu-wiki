@@ -49,7 +49,7 @@ def sync_docs(runner_src_dir, runner_i18n_base):
 
 if __name__ == "__main__":
 
-    lang_config = ["zh-Hans"]
+    lang_config = ["en"]
     src_docs = Path("docs")
     
     for current_lang in lang_config:
