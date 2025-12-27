@@ -73,11 +73,11 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 
 该图像显示P1系列打印机的“完整热端部件”，不包括冷却风扇以供后续部件参考。
 
-### 安全警示
-
-<font  color="red">**重要！**</font> 
+:::warning
 
 在对打印机或其电子设备进行任何维护之前，请始终关闭电源并断开打印机的连接，以防止短路和潜在损坏。在拆卸热端等零件时，这一点尤为重要，因为如果打印机打开，裸露的电线和组件可能会造成电气损坏。如有任何问题或疑问，请联系我们的支持团队寻求帮助。
+
+:::
 
 ### 所需的工具和零件
 
@@ -135,7 +135,11 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 
 <img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In9.webp').default} width="80%"/>
 
-<font color="red">**确保使用H2.0六角扳手牢固地拧紧热端螺钉，避免过度拧紧。**</font>
+:::info
+
+确保使用H2.0六角扳手牢固地拧紧热端螺钉，避免过度拧紧。
+
+:::
 
 **步骤2-连接热端电缆**
 
@@ -173,41 +177,3 @@ https://e3d-online.zendesk.com/hc/en-us/articles/4777443097757-Filament-Starter-
 如果观察到挤出不足的迹象，请降低此数字，直到恢复打印质量。
 
 <img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In14.webp').default} width="80%"/>
-
-## 产品购买链接
-
-**购买链接:**
-
-https://biqu.equipment/products/biqu-panda-hotend
-
-**如果您对产品有任何问题，请与我们联系并提交支持工单**
-
-https://biqu3d.com/pages/submit-a-ticket
-
-
-
-**导航:**
-
-BIQU官方网站：                            							  http://biqu3d.com
-
-BIGTREETECH官方网站：            				 			 http://bigtree-tech.com
-
-网上商店：                                          				 		https://biqu.equipment
-
-BIGTREETECH官方群: 								  			  https://www.facebook.com/groups/bigtreetech
-
-Discord: 																	   https://discord.gg/hhZsV7zk
-
-Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
-
-微信公众号：																BIGTREETECH 
-
-官方社群：
-
-1群：																			190180312（已满）
-
-2群：																			633401944
-
-微信社群：																   关注微信公众号获取社群二维码
-
-资料获取由微信公众号提供，关注公众号发送及消息即可获取（网盘链接）
