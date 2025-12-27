@@ -1,8 +1,8 @@
 {
-  "label": "Panda 系列热端",
+  "label": "Panda Series Hotend",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Panda 系列热端"
+    "description": "Panda Series Hotend"
   }
 }
