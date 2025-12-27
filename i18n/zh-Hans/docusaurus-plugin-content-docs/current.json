@@ -4,19 +4,19 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Panda Series Extruders": {
-    "message": "Panda Series Extruders",
+    "message": "Panda 系列挤出机",
     "description": "The label for category 'Panda Series Extruders' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Series Extruders.link.generated-index.description": {
-    "message": "Panda Series Extruders",
+    "message": "Panda 系列挤出机",
     "description": "The generated-index page description for category 'Panda Series Extruders' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Series Hotend": {
-    "message": "Panda Series Hotend",
+    "message": "Panda 系列热端",
     "description": "The label for category 'Panda Series Hotend' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Series Hotend.link.generated-index.description": {
-    "message": "Panda Series Hotend",
+    "message": "Panda 系列热端",
     "description": "The generated-index page description for category 'Panda Series Hotend' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Revo": {
@@ -28,11 +28,11 @@
     "description": "The generated-index page description for category 'Panda Revo' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Series Module": {
-    "message": "Panda Series Module",
+    "message": "Panda 系列模块",
     "description": "The label for category 'Panda Series Module' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Series Module.link.generated-index.description": {
-    "message": "Panda Series Module",
+    "message": "Panda 系列模块",
     "description": "The generated-index page description for category 'Panda Series Module' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Touch": {
@@ -40,11 +40,11 @@
     "description": "The label for category 'Panda Touch' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Touch expansion module": {
-    "message": "Panda Touch expansion module",
+    "message": "Panda Touch 扩展模块",
     "description": "The label for category 'Panda Touch expansion module' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Panda Touch expansion module.link.generated-index.description": {
-    "message": "Panda Touch expansion module",
+    "message": "Panda Touch 扩展模块",
     "description": "The generated-index page description for category 'Panda Touch expansion module' in sidebar 'tutorialSidebar'"
   }
 }
