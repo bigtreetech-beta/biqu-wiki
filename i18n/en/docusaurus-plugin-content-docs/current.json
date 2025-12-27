@@ -14,5 +14,37 @@
   "sidebar.tutorialSidebar.category.Panda Touch 扩展模块.link.generated-index.description": {
     "message": "Panda Touch Expansion Module",
     "description": "The generated-index page description for category 'Panda Touch 扩展模块' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda 系列挤出机": {
+    "message": "Panda Series Extruders",
+    "description": "The label for category 'Panda 系列挤出机' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda 系列挤出机.link.generated-index.description": {
+    "message": "Panda Series Extruders",
+    "description": "The generated-index page description for category 'Panda 系列挤出机' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda 系列热端": {
+    "message": "Panda Series Hotend",
+    "description": "The label for category 'Panda 系列热端' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda 系列热端.link.generated-index.description": {
+    "message": "Panda Series Hotend",
+    "description": "The generated-index page description for category 'Panda 系列热端' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda Revo": {
+    "message": "Panda Revo",
+    "description": "The label for category 'Panda Revo' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda Revo.link.generated-index.description": {
+    "message": "Panda Revo",
+    "description": "The generated-index page description for category 'Panda Revo' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda 系列模块": {
+    "message": "Panda Series Module",
+    "description": "The label for category 'Panda 系列模块' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Panda 系列模块.link.generated-index.description": {
+    "message": "Panda Series Module",
+    "description": "The generated-index page description for category 'Panda 系列模块' in sidebar 'tutorialSidebar'"
   }
 }

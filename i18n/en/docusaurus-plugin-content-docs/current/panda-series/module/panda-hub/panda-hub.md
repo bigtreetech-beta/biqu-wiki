@@ -4,135 +4,144 @@
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Title.webp').default} width="40%" class="right-image"/>
 
-## **产品简介**
+## Product Profile
 
-BIGTREETECH Panda Hub是BIGTREETECH 3D打印团队针对USB2.0扩展制作的一款HUB板子，可以将一个USB端口扩展为两个，满足扩展需求。专为P1P和P1S打印机设计，配备外壳模型，并通过安装螺丝轻松固定，保护原装USB端口，从而确保耐用性。
+The BIGTREETECH Panda Hub is a compact device that turns one USB port into two, boosting USB connectivity. Designed for Bambu Lab P1P, P1S, it includes a printable mounting case that uses provided mounting hardware to secure and protect the original USB port, ensuring durability.
 
-## **产品特点**
+## Feature Highlights
 
-- 产品整体小巧，方便安装在更多位置；
-- 采用一出二的形式；
-- 提供专为P1P，P1S设计的 外壳模型和安装螺丝，能够牢固固定Panda Hub，有效防止原装USB端口因设备运行时的震动而磨损。
+- The compact size of the Panda Hub enables seamless integration into various locations. 
+- Features a one-to-two port, effectively doubling your USB access. 
+- The included printable mounting case is designed for the P1P and P1S; it secures the Panda Hub with the provided mounting hardware, shielding the USB port from vibrations and wear to enhance durability. 
 
-## **产品参数**
+## Specifications
 
-| 外观尺寸 | 33mm x 20mm                                |
-| -------- | ------------------------------------------ |
-| 安装尺寸 | 详情请参考：BIGTREETECH Panda Hub-SIZE.pdf |
-| 输入电压 | DC 5V                                      |
-| 逻辑电压 | DC 5V                                      |
+| Dimensions    | 33mm x 20mm                                                 |
+| ------------- | ----------------------------------------------------------- |
+| Mounting Size | For details, please refer to [BIGTREETECH Panda Hub V1.0-SIZE.pdf](https://github.com/bigtreetech/Panda-Hub/blob/master/Hardware/BIGTREETECH%20Panda%20Hub%20V1.0-SIZE.pdf) |
+| Input Voltage | DC 5V                                                       |
+| Logic Voltage | DC 5V                                                       |
 
 </div>
 
-## **产品尺寸**
+## Dimensions
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Dimensions.webp').default} width="80%"/>
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Dimensions1.webp').default} width="80%"/>
 
-## **接口介绍**
+## Interface Introduction
 
-### 端口说明
+### Interface Diagram
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Interface.webp').default} width="80%"/>
 
-## **注意事项**
+## Important Notes
 
-- 电流仍需符合P1P，P1S接口的输出要求：5V 1.5A;
+Total current must not exceed `5V 1.5A` as per **P1P** and **P1S** port specifications. 
 
-- Panda Hub仅供电使用，不具备USB通信功能；
+The Panda Hub has been designed specifically for power supply and does not have standard USB communication functionality.
 
-- 如搭配 Panda Touch 在 P1P\P1S 上使用，Panda Hub 另一 USB接口，请使用 0.2A 以下电流的 USB 设备。
+When using the **Panda Touch** with the **P1P** / **P1S**, ensure that any device connected to the other USB port of the **Panda Hub** draws a current below `0.2A`.
 
-
-## **安装指南**
+## Installation Guide
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Installation.webp').default} width="80%"/>
 
-**Preparation:**
+### Preparation
 
-1、下载并打印外壳: [https://bttwiki.com/Panda%20Hub.html] 
+1. Download and print the case: [MakerWorld/@bigtreetech](https://makerworld.com/en/models/502942-bigtreetech-panda-hub-mounting-case)
 
-2、所需工具及材料: 
+2. Tool Required: 
 
-M2.5x8热熔螺母 x2（配件包内含） 
+    Included in the Accessory Pack: 
+    
+    - M2.5x8 heat-set inserts x2  
+    - M2.5x8 screws x2 
 
-M2.5x8螺丝 x2（配件包内含） 
+    Not Included (Self-Provided): 
 
-2.0内六角螺丝刀（自备） 
-
-电烙铁（自备）
+    - 2.0 hex key 
+    - Soldering iron
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation.webp').default} width="80%"/>
 
-**安装步骤**
+### Installation Steps
 
-1、嵌入热熔螺母
+1. Embed Heat-Set Inserts
 
-将两颗M2.5x8热熔螺母分别插入外壳正反两面的预留孔中，并用烙铁将其嵌入外壳打印件内，确保螺母与安装面齐平。 （如需如何使用烙铁嵌入热熔螺母的教程，请跳转至本教程末尾查看。）
+    Insert the two M2.5x8 heat-set inserts into the pre-drilled holes on both sides of the case.
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation1.webp').default} width="80%"/>
+    Using a soldering iron, embed the inserts into the case making sure that they are flush with the mounting surface. (For instructions on how to embed heat-set inserts using a soldering iron, refer to the end of this guide.)
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation2.webp').default} width="80%"/>
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation1.webp').default} width="60%"/>
+    
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation2.webp').default} width="60%"/>
 
-2、安装Panda Hub
+2. Install the Panda Hub
 
-将Panda Hub放入外壳打印件中。
+    Place the Panda Hub inside the case.
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation3.webp').default} width="80%"/>
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation3.webp').default} width="60%"/>
 
-盖上盖子，使用2.0螺丝刀  用M2.5x8螺丝将其固定。
+    Place on the top cover and secure it using the M2.5x8 screw and a 2.0mm screwdriver.
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation4.webp').default} width="80%"/>
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation4.webp').default} width="60%"/>
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation5.webp').default} width="80%"/>
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation5.webp').default} width="60%"/>
 
-将组装好的Panda Hub插入打印机USB端口
+    Connect the Assembled Panda Hub to the Printer. 
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation6.webp').default} width="80%"/>
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation6.webp').default} width="60%"/>
 
-取下屏幕，然后使用2.0六角螺丝刀拆下屏幕下方的螺丝 
+    Remove the screen and unscrew the screws located below the screen using a 2.0mm hex screwdriver. 
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation7.webp').default} width="80%"/>
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation7.webp').default} width="60%"/>
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation8.webp').default} width="80%"/>
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation8.webp').default} width="60%"/>
 
-将Panda Hub热熔螺母的螺纹孔与机器上刚取下的螺丝孔对准后，使用2.0六角螺丝刀，用M2.5x8螺丝将Panda Hub固定在机器上。
+    Align the threaded hole of the Panda Hub’s heat-set insert with the hole on the printer.
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation9.webp').default} width="80%"/>
+    Secure the Panda Hub to the printer using M2.5x8 screw and a 2.0mm hex screwdriver.
 
-装回屏幕，完成安装。
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation9.webp').default} width="60%"/>
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation10.webp').default} width="80%"/>
+    Reattach the screen to complete the installation.
 
-将Panda Touch USB线/USB灯条插入Panda Hub即可使用。
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation10.webp').default} width="60%"/>
 
-<img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation11.webp').default} width="80%"/>
+    Connect the Panda Touch USB Cable or USB Light Strip to the Panda Hub.
 
-**如何使用烙铁嵌入热熔螺母：**
+    <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation11.webp').default} width="60%"/>
 
-准备好需要嵌入热熔螺母的打印件。
+### How to Embed Heat-Set Inserts Using a Soldering Iron
+
+Prepare the 3D printed part that needs to have the heat-set insert embedded.
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation12.webp').default} width="80%"/>
 
-将热熔螺母置于打印件的预留孔位。
+Place the heat-set insert on top of the 3D printed part, aligned with the cavity designed for it.
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation13.webp').default} width="80%"/>
 
-BIGTREETECH Panda Hub 用户手册   13   将热熔螺母置于打印件的预留孔位。  使用已加热的烙铁，垂直向下施加压力，将热熔螺母熔入打印件中； 
+Heat the soldering iron and apply gentle pressure. Ensure you push in a direction perpendicular to the surface where the insert will go.
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation14.webp').default} width="80%"/>
 
-在此过程中，烙铁会加热螺母，使其缓慢熔入部件中； 请尽量耐心，螺母熔入的速度越慢，金属与塑料之间的结合就越牢固； 待螺母顶部与打印件表面齐平后，即可停止加热并取出烙铁。
+Allow the heat-set insert to slowly melt into the part. Be patient; the slower the insert melts in, the stronger the bond between the metal and plastic will be.  
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation15.webp').default} width="80%"/>
 
+Once the top of the insert is flush with the part, pull the iron back out and let it cool down. 
+
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation16.webp').default} width="80%"/>
 
-完成！
+Finished! 
 
 <img src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation17.webp').default} width="80%"/>
 
-**注意事项：**
+:::warning
 
-加热烙铁时，请注意安全，避免烫伤。 熔入过程应缓慢进行，切勿操之过急。
+Use caution when handling a heated soldering iron to avoid burns. Perform the melting process slowly for optimal results. 
+
+:::

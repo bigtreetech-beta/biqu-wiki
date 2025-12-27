@@ -4,75 +4,76 @@
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Title.webp').default} width="40%" class="right-image"/>
 
-## **产品简介**
+## **Product Profile**
 
-Panda Lux是专为Bambu Lab P1/X1系列打印机设计的高亮度LED灯条。它为打印区域提供明亮的照明，使用户可以轻松监控打印过程并快速识别任何问题。
+The Panda Lux is a high-brightness LED light bar specially designed for Bambu Lab P1/X1 series printers. It provides bright illumination for the print area, allowing users to easily monitor the printing process and quickly identify any issues.
 
-## **功能亮点**
 
-- **高亮度:** 31个LED和6000K色温为打印区域提供清晰的照明。
-- **正面照明:** 正面设计避免光线直射眼睛，减少眩光，保护视力。
-- **磁性安装:** 磁性安装易于安装，无需工具。
-- **原始屏幕控制:** 通过打印机的原始屏幕控制Panda Lux，实现无缝集成。
-- **铝合金外壳:** 优质铝合金外壳可确保高效散热，延长LED灯的使用寿命。
-- **兼容性:** 与Bambu Lab P1/X1系列打印机兼容。
+## **Feature Highlight**
 
-## **规格**
+- High-Level Brightness: 31 LEDs and 6000K color temperature provide clear illumination for the print area.
+- Front-Facing Illumination: Front-facing design avoids direct light into the eyes, reducing glare and protecting eyesight.
+- Magnetic Installation: Easy to install with magnetic mounting, no tools required.
+- Original Screen Control: Control the Panda Lux via the printer's original screen for seamless integration.
+- Aluminum Alloy Housing: High-quality aluminum alloy housing ensures efficient heat dissipation and extends the LED light's lifespan.
+- Compatibility: Compatible with Bambu Lab P1/X1 series printers.
 
-| **电压**     | **5V**                              |
-| ------------ | ----------------------------------- |
-| **色温**     | **纯白, 6000K**                     |
-| **防水**     | **否**                              |
-| **寿命**     | **长达36000小时**                   |
-| **电缆长度** | **100mm**                           |
-| **兼容性**   | **适用于Bambu Lab X1/P1系列打印机** |
+## **Specification**
+
+| **Voltage**           | **5V**                                  |
+| --------------------- | --------------------------------------- |
+| **Color Temperature** | **Pure White, 6000K**                   |
+| **Waterproof**        | **No**                                  |
+| **Lifespan**          | **Up To 36,000 Hours**                  |
+| **Cable Length**      | **100mm**                               |
+| **Compatibility**     | **For Bambu Lab X1/P1 Series Printers** |
 
 </div>
 
-## **尺寸**
+## **Dimensions**
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Dimension.webp').default} width="80%"/>
 
-## **包装清单**
+## **Packaging List**
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Packaging1.webp').default} width="80%"/>
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Packaging2.webp').default} width="80%"/>
 
-## **安装说明**
+## **Installation Instructions**
 
-以下说明以Bambu Lab P1P为例。
+The following instructions use the Bambu Lab P1P as an example.
 
-**步骤1:** 将Panda Lux连接到打印机前门框架的下侧，使其居中。
+**Step 1:** Attach the Panda Lux to the underside of the printer's front door frame, centering it in place.
 
-*Panda Lux内置磁铁，便于安装。对于额外的加固，包装中包括双面胶带，但不需要双面胶带。
+*The Panda Lux has built-in magnets that allow for easy installation. For additional reinforcement, double-sided adhesive tapes are included in the package but are not required.
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Installation1.webp').default} width="80%"/>
 
-**步骤2:** 如果要在P1打印机（USB端口PCB）上安装，请卸下AP板的保护盖；如果要在X1打印机上安装，则打开机架右侧的塑料盖。
+**Step 2:** Remove the protective cover off of the AP board if you are installing on a P1 printer (USB port PCB) or open the plastic cover on the right side of the frame if you are installing on a X1 printer.
 
-**步骤3:** 如图所示，将Panda Lux电缆沿边缘接缝布线至顶部。
+**Step 3:** As shown in the image, route the Panda Lux cable along the edge seam to the top.
 
-*为了增加稳定性以防止电缆移动，请使用包装中提供的电工胶带将电缆牢固地固定在门框上。
+*For additional stability to prevent the cable from moving, use the electrical tape provided in the package to secure the cable firmly to the door frame.
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Installation2.webp').default} width="80%"/>
 
-**步骤4:** 从AP板上断开库存灯条连接器。
+**Step 4:** Disconnect the stock light bar connector from the AP board.
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Installation3.webp').default} width="80%"/>
 
-**步骤5:** 连接适配器板上的Panda Lux电缆连接器。
+**Step 5:** Connect the Panda Lux cable connector on the adapter board.
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Installation4.webp').default} width="80%"/>
 
-**步骤6:** 剥去转接板底部的双面胶带，粘贴在合适的位置。
+**Step 6:** Peel off the double-sided tape on the bottom of the adapter board and stick it on a suitable location.
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Installation5.webp').default} width="80%"/>
 
-**步骤7:** 将连接电缆的一端插入AP板的库存灯条端口，将连接电缆另一端插入适配器板。
+**Step 7:** Insert one end of the connection cable into the AP board's stock light bar port, and insert the other end of the connection cable into the adapter board.
 
-注意：X1系列上的库存灯条连接器位置在塑料盖后面的框架左侧。
+Note: The stock lightbar connector location on X1 series is on the left side of the frame behind the plastic cover.
 
 <img src={require('@site/docs/panda-series/module/panda-lux/img/Panda_Lux_Installation6.webp').default} width="80%"/>
 
-**步骤8:**将保护盖装回AP板（合上X1打印机的塑料盖）。
+**Step 8:** Install the protective cover back onto the AP board (close the plastic cover for X1 printers).

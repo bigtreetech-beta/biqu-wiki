@@ -4,107 +4,123 @@
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Title.webp').default} width="40%" class="right-image"/>
 
-## **产品简介**
+## **Introduction**
 
-BIQU Panda Claw 是一种专为 X1、P1和A1系列打印机设计的挤出机齿轮套件。该齿轮组采用金色RNC纳米涂层硬化钢齿轮和铝制 CNC 惰轮支臂，旨在提高打印机的挤出性能和耐用性
+The BIQU Panda Claw is an extruder gear set, designed with golden RNC nano-coated hardened steel gears and aluminum CNC idler arm. It is tailored to improve the performance and durability of extrusion systems in the X1, P1, and A1 series printers, offering an upgrade that enhances filament flow and printing precision.
 
-## **功能亮点**
+## **Feature Highlights**
 
-- 高耐磨性: 金色RNC纳米涂层硬化钢齿轮，硬度升级，耐磨性增强，轻松应对各类纤维耗材。
-- 稳定耐用: AL6061T6铝合金CNC惰轮支臂，轻量化，高强度，精密制造，减少挤出齿轮位移；黄铜材质减速齿轮，具有自润滑属性，更耐磨，寿命更久，耗材控制更精准。
-- 高精度: 减速齿轮五辐镂空偷轻结构，惯性更小，定位更精准，打印更精细。
-- 兼容性强: 兼容Bambu Lab X1/P1/A1系列打印机。
+- Abrasive-Resistant: Made from hardened steel with RNC nano-coating, the Panda Claw is highly resistant to wear-and-tear from abrasive filament.
+- Enhanced Stability and Durability: The lightweight, high-strength, ultra-tight tolerance idler arm eliminates unwanted movement, ensuring stable feeding, while the brass spur gear provides self-lubricating properties for a longer lifespan.
+- Precision: The five-spoke lightweight design minimizes moving mass, ensuring exceptional accuracy for perfect prints.
+- Compatibility: The Panda Claw is compatible with Bambu Lab X1/P1/A1 series printers.
 
-## **包装清单**
+## **Packaging List**
 
-| 物品名称       | 数量 |
-| -------------- | ---- |
-| Panda Claw     | 1    |
-| 轴承           | 2    |
-| 二硫化钼润滑脂 | 1    |
+| Item        | Qty  |
+| ----------- | ---- |
+| Panda Claw  | 1    |
+| Bearings    | 2    |
+| MoS2 Grease | 1    |
 
 </div>
 
-## **Panda Claw 安装指南**
+## **Replacement Guide**
 
-在本指南中，您将学习如何将P1打印机的原装挤出齿轮更换为Panda Claw组件。
+In this guide, you will learn how to replace the stock extruder gear with Panda Claw on the P1.
 
-### 步骤 1: 移出挤出机
+### Step 1: Remove the Extruder from the Print Head
 
-小心地断开挤出机和热端的端子，如下图所示。
+Begin by gently detaching the wires of the extruder and hotend as illustrated in the following image.
 
-注意：断开挤出机霍尔开关板组件的排线端子时（图中编号为1的排线端子），务必小心、轻柔地操作，避免损坏排线。
+It's important to carefully handle the filament sensor ribbon cable (marked with ‘1’).
+
+This cable is delicate and prone to damage.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide.webp').default} width="80%"/>
 
-接下来，按住切刀刀柄，同时松开固定刀柄的螺丝。螺丝松开后，缓慢松开切刀刀柄，让刀柄自然下垂。
+Next, proceed to disengage the filament cutter. Keep the lever pressed down while you unscrew the fastener which secures it.
 
-注意：在拆卸螺丝时，请确保螺丝刀垂直插入螺丝头，确认刀头完全插入后，再轻轻转动螺丝刀拧松螺丝，避免因操作不当导致螺丝头滑牙。
+Once the screw is loosened, carefully release the filament cutter.
+
+**Caution:** Ensure that the screwdriver is positioned perpendicular to the surface of the screw head before insertion. Verify that the driver is fully engaged with the screw head before gently turning it to remove the screw. This prevents improper use of the tool and avoids stripping the screw head.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide1.webp').default} width="80%"/>
 
-松开切刀刀柄后，卸下固定挤出机的3颗螺丝（编号为1,2,3），再轻轻拧松编号4和5的螺丝，松开PTFE管底座。然后，通过向下按压PTFE管底座压，确保气动接头完全压下后，拔出PTFE管。
+Once the lever is released, start by removing the first three screws that secure the extruder. Next, lightly loosen screws numbered ‘4’ and ‘5’ to free the filament guide.
+
+Push the filament guide toward the extruder to allow the PTFE tube to be removed.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide2.webp').default} width="80%"/>
 
-此时，您可以从打印头上移除挤出机组件。
+The entire extruder assembly can now be detached from the printer.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide3.webp').default} width="80%"/>
 
-### 步骤 2: 拆卸挤出机
+### Step 2: Disassemble the Extruder
 
-取下挤出机后，接着需要拆卸挤出机上的固定螺丝。拧下图中编号1到4的四颗螺丝。
+Once the extruder is removed from the printer, begin disassembling it.
+
+Start by unscrewing the screws numbered ‘1’ to ‘4’, as indicated in the image below.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide4.webp').default} width="80%"/>
 
-编号5螺丝用于张紧挤出机齿轮。拧松该螺丝以释放弹簧的张力，然后轻轻向上拔出黄色齿轮，另一侧的从动齿轮也采用相同方法取出。
+Screw number ‘5’, which secures the idler gear, should be loosened halfway at this stage to relieve the spring tension.
+
+You can then pull the yellow gear towards you to remove it. The idler can be removed in the same manner.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide5.webp').default} width="80%"/>
 
-### 步骤 3: 清洁
+### Step 3: Cleaning the Extruder Body and Components
 
-前挤出机内部积有大量灰尘，如图所示。在更换Panda Claw并重新组装挤出机之前，请务必清洁干净所有灰尘。建议使用软毛刷和气吹对内部进行清洁。
+Before replacing with Panda Claw and re-assembling the extruder, it is crucial to clean any debris from the body and components. As shown in the image below, this extruder has accumulated a significant amount of dust. Ensure all dust is removed prior to reassembly. You can use a small brush and compressed air to thoroughly clean the extruder.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide6.webp').default} width="80%"/>
 
-### 步骤 4: 润滑Panda Claw
+### Step 4: Lubricating the Extruder
 
-在更换Panda Claw到挤出机之前，需要先对Panda Claw齿轮进行润滑。在从动齿轮侧面和转轴上滴少量润滑脂，如下图所示。
+Before assembling the Panda Claw to the extruder, it is recommended to apply lubrication to the gears.
 
-<font  color="red">**注意：请务必避免润滑油接触到挤出齿轮的齿（如下图中蓝色高亮部分所示）。如润滑油已沾上，简单擦拭无法去除。必须使用肥皂彻底清洗齿轮，以去除油脂，之后再重新涂抹润滑油。**</font>
+Add a small amount of lubricant on the idler extruder gear, and the sides as shown in the image below. 
+
+:::note
+
+Make sure you don’t get any grease on the filament gear teeth (highlighted in blue in the image below). If you do, just wiping it off won’t help. You’ll need to wash the gear with soap to remove the grease and then apply new grease after that.
+
+:::
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide15.webp').default} width="80%"/>
 
-您还可以在挤出机齿轮上涂抹一点润滑脂或润滑油，润滑脂的效果更持久。确保均匀涂抹，且在安装齿轮前擦去多余部分。
+Next, you can also apply a bit of lubricant on the extruder gear (highlighted in green in the image below).
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide16.webp').default} width="80%"/>
 
-最后，将Panda Claw安装到挤出机主体上，并在齿轮轴周围涂抹少量润滑剂，如下图所示。
+Finally, install the Panda Claw gear onto the extruder body and apply a small amount of lubricant around the designated area, highlighted in green in the image below.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide17.webp').default} width="80%"/>
 
-涂好润滑剂后，安装挤出机后盖，并手动转动镂空齿轮数次，确保润滑剂均匀分布并检查齿轮转动是否顺畅。
+After applying the lubricant, reinstall the back cover of the extruder and manually rotate the hollow extruder gear a few times to evenly distribute the lubricant and verify that everything is functioning smoothly. 
 
-拧紧四颗固定螺丝以及挤出机张紧螺丝，在拧紧张紧螺丝时请确保弹簧和顶帽正确安装，如下图。
+Be sure to securely tighten the four extruder screws along with the idler tensioner screw to prepare it for installing it onto the printer.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide10.webp').default} width="80%"/>
 
-### 步骤 5: 安装挤出机
+### Step 5: Re-installing the Extruder onto the Printer
 
-现在，您可以将挤出机重新安装回打印头。首先锁紧编号1、2、3螺丝固定挤出机，插入PTFE管，抬起底座并拧紧编号4、5的螺丝，固定PTFE管底座。
+Now you can re-install the extruder onto the printer. Begin by securing the extruder in place with screws numbered ‘1’, ‘2’, and ‘3’. Next, insert the PTFE tube into the top of the extruder, raise the filament guide, and tighten screws ‘4’ and ‘5’.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide11.webp').default} width="80%"/>
 
-接下来，依照下图复位切刀刀柄并轻轻拧紧刀柄上的固定螺丝。
+Push down the filament lever as shown in the image and tighten the lever screw.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide12.webp').default} width="80%"/>
 
-最后，将所有挤出机和热端的线缆重新连接到板子上。在此步骤中，请特别小心，确保所有端子正确对齐后插入。部分端子可以在错误的状态下被按下，这会导致设备出现报错。
+Lastly, reconnect all the extruder and hotend wires to the board. Take extra care during this step to ensure proper alignment of the connectors. Pressing down connectors when misaligned or in the incorrect port can lead to device errors.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide13.webp').default} width="80%"/>
 
-### 步骤 6: 设备校准
+### Step 6: Post-Operation Calibration
 
-启动打印机，完成一次手动上料和退料操作。如果没有异常或报错，表明挤出机已正确安装。
+We recommend performing a full calibration of the printer after this operation, to ensure smooth functioning.
 
 <img src={require('@site/docs/panda-series/extruder/panda-claw-px/img/Panda_Claw_P1_X1_Guide14.webp').default} width="80%"/>

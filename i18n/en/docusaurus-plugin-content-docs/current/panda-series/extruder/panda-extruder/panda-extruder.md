@@ -4,122 +4,122 @@
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_title.webp').default} width="50%" class="right-image"/>
 
-## **产品简介**
+## **Introduction**
 
-BIQU Panda Extruder是一款专为P1P、P1S、X1C和X1E打印机设计的耐用性升级部件。采用航空级CNC阳极氧化铝，具备轻量且高刚性的特性，有效降低高速打印中的惯性，提升打印质量。此外，其独特的散热结构设计防止步进电机过热，确保打印过程稳定顺畅。
+The BIQU Panda Extruder is an exceptional durability-focused upgrade for P1P, P1S, X1C, and X1E printers. Crafted from aerospace-grade CNC anodized aluminum, it reduces inertia during high-speed printing, which results in superior print quality. Additionally, its free-flowing ventilation design efficiently dissipates heat, preventing overheating and maintaining consistent and reliable performance.
 
-## **功能亮点**
+## **Feature Highlights**
 
-**提升打印质量：** 采用航空级铝材CNC精加工而成，结构轻盈且坚固，能够有效降低高速打印中的惯性，实现更佳的打印质量和更精细的打印效果。
+**Enhanced Print Quality:** A lightweight CNC-machined structure consisting of aerospace-grade aluminum makes it light yet sturdy. Reduced inertia with high-speed printing results in superior print quality and finer prints.
 
-**优化散热：** 独特的散热结构设计，避免步进电机过热，确保打印过程顺畅无阻。
+**Optimized Heat Dissipation:** The free-flowing ventilation design for exceptional heat dissipation prevents overheating while maintaining smooth operation all round.
 
-**耐用与美观并重：**阳极氧化工艺使其颜色鲜艳且耐腐蚀，外观炫酷，为您的设备增添一抹色彩。
+**Durability with Style: **Combining aesthetics with functionality, the Panda extruder's vibrant color scheme and corrosion-resistant material offer both visual appeal and lasting performance.
 
-**即插即用升级：** 兼容X1C、X1E、P1P和P1S的原装齿轮，并能与Panda系列配件（如Panda Claw、Panda Revo、Panda Jetpack）完美配合使用。
+**Drop-In Upgrade:** Compatible with X1C, X1E, P1P, and P1S stock gears. Also works flawlessly with our Panda series accessories such as the Panda Claw, Panda Revo, and Panda Jetpack.
 
 </div>
 
-## **包装清单**
+## **Packaging List**
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_packaging.webp').default} width="80%"/>
 
-## **安装指南**
+## **Replacement Guide**
 
-在本指南中，您将学习如何在P1打印机上将原装挤出机更换为Panda Extruder。
+In this guide, you will learn how to replace the stock extruder with Panda Extruder on the P1 printer.
 
-### 步骤1：拆下工具头上的原装挤出机
+### Step 1: Remove the Stock Extruder from the Toolhead
 
-1.先将耗材从挤出机中退出，然后关闭电源
+1.Begin by retracting the filament from the extruder and then switch the power off.
 
-2.按照图示移除工具头前盖
+2.Remove the toolhead cover as shown.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step1.webp').default} width="80%"/>
 
-3.将插头拔出（如红圈所示）
+3.Disconnect the connector, as highlighted by the red circle.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step2.webp').default} width="80%"/>
 
-4.使用H1.5内六角扳手松开箭头所指的螺丝
+4.Using the H1.5 hex key, loosen the screw as indicated by the arrow.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step3.webp').default} width="80%"/>
 
-5.使用H2.0内六角扳手将箭头所指的3枚M3螺丝依次拆下，然后按下铁氟龙管接头，将PTFE管拔出
+5.Use the H2.0 hex key to remove the three M3 screws as directed by the arrow, and then disassemble the PTFE tube by pressing the Bowden tube connector and pulling it out.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step4.webp').default} width="80%"/>
 
-到此原装挤出机已成功拆下。
+The stock extruder has been successfully removed.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step5.webp').default} width="80%"/>
 
-### 步骤2：拆卸原装挤出机
+### Step 2: Disassemble the Stock Extruder
 
-在打印机上移出原装挤出机后，可开始拆卸。
+After the stock extruder has been removed from the printer, it's time to disassemble it.
 
-1.先拆卸热端。使用H2.0内六角扳手移除下图红色标示的两颗螺丝。
+1.Begin by disassembling the hotend. Using the H2.0 hex key, remove the two screws highlighted in red in the image below.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step6.webp').default} width="80%"/>
 
-2.接着，使用H1.5内六角扳手拆开耗材检测器。
+2.Next, use the H1.5 hex key to remove the filament sensor.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step7.webp').default} width="80%"/>
 
-3.翻至另一面，用H2.0内六角扳手移除图示的五颗螺丝，将内部零件拆开（得到齿轮支架、弹簧、弹簧座、挤出齿轮）。
+3.Flip the extruder over and use the H2.0 hex key to remove the five screws indicated in the image below. This will allow you to disassemble the internal components, revealing the idler arm, spring, spring retainer, and extrusion gear.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step8.webp').default} width="80%"/>
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step9.webp').default} width="80%"/>
 
-### 步骤3：组装Panda Extruder
+### Step 3: Assemble the Panda Extruder
 
-1.拆下图中圈出的两颗螺丝，开始组装Panda Extruder。
+1.Unscrew the two screws circled in the image below to begin the Panda Extruder assembly.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step10.webp').default} width="80%"/>
 
-2.将随附的两颗693ZZ轴承安装到指定位置。
+2.Install the included two 693ZZ bearings into their designated slots.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step11.webp').default} width="80%"/>
 
-3.先安装齿轮支架，在安装挤出机齿轮。
+3.First, place the stock idler arm, followed by the stock extrusion gear.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step13.webp').default} width="80%"/>
 
-4.安装弹簧和弹簧座，并用螺丝锁上。
+4.Insert the stock spring and spring retainer, securing them in place with screws.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step14.webp').default} width="80%"/>
 
-5.将压盖组合，并锁上4枚M3螺丝。
+5.Assemble the Panda Extruder and secure it using the four included M3 screws.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step15.webp').default} width="80%"/>
 
-6.将耗材检测器对齐安装，并锁上螺丝。
+6. Properly align the filament sensor and secure it with screws.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step16.webp').default} width="80%"/>
 
-7.重新安装热端并拧紧螺丝。
+7. Reattach the hotend and tighten it with screws.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step17.webp').default} width="80%"/>
 
-### 步骤4：将Panda Extruder 安装到工具头上
+### Step 4: Assemble the Panda Extruder onto the Toolhead
 
-1.按图示安装Panda Extruder, 使用H2.0内六角扳手依次将3枚螺丝锁上。
+1.Install the Panda Extruder as indicated in the diagram, using the H2.0 hex key to fasten it with the screws.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step18.webp').default} width="80%"/>
 
-2.将切刀对齐刀口插入，并向里面推的同时，用H1.5内六角扳手锁紧。
+2.Position the cutter within its slot and secure it by tightening the screw indicated in the diagram with the H1.5 hex key.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step19.webp').default} width="80%"/>
 
-3.将三个插头插入对应插座。
+3. Insert each of the three plugs into their respective sockets.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step20.webp').default} width="80%"/>
 
-4.插入PTFE管。
+4.Insert the PTFE tube. 
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step21.webp').default} width="80%"/>
 
-5.连接风扇插头并重新安装前盖
+5. Connect the fan plug and re-attach the cover.
 
 <img src={require('@site/docs/panda-series/extruder/panda-extruder/img/panda_extruder_step22.webp').default} width="80%"/>
 
-**恭喜您！您已成功升级到Panda Extruder。尽情享受更高的打印性能与精度吧！**
+**Congratulations! You've successfully upgraded to the Panda Extruder. Enjoy enhanced performance and precision in your printing.**

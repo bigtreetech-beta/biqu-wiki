@@ -4,44 +4,44 @@
 
 <img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Title.webp').default} width="40%" class="right-image"/>
 
-## **产品简介**
+## **Product Profile**
 
-BIGTREETECH Panda Branch V1.0是一款针对X1/P1/A1系列打印机设计的电源扩展板。该扩展板具备四个5V输出接口，可用于为Panda Touch、USB风扇及USB灯带等设备提供电源。此外，扩展板还配备了MX3.0 2x2Pin接口，专门用于AMS供电。
+The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/A1 series printers. It features four 5V outputs, which can be used to power devices such as the Panda Touch, USB fans, and USB light strips. Additionally, it includes the MX3.0 2x2 Pin interface for powering the AMS/AMS Lite.
 
-## **产品特点**
+## **Features Highlights**
 
-- 四路USB-A的5V输出，可支持灯条、Panda Touch等搭配使用；
-- 预留拨码开关进行5V输出的电流选择，让保护更加细致；
-- 各输出接口增加防反接保护及过流保险丝，能极大的对客户误操作的情况镜像保护；
-- 5V输出设有故障指示灯，当触发过流保护时，红灯亮起，方便客户分析处理DIY过程中的故障原因；
-- 板框设计宽度20mm，接口排布统一方向，提高布线的美观及实用性。
+- Includes four USB-A 5V outputs for powering LED strips, Panda Touch, and other accessories.
+- Features a reserved DIP switch for precise current output selection at 5V, providing enhanced protection.
+- Offers integrated reverse connection protection and overcurrent fuses for all output interfaces.
+- The 5V output includes a fault indicator light that glows red when overcurrent protection is triggered, simplifying troubleshooting during DIY projects.
+- Designed with a compact 20mm-wide frame, aligning all interfaces in the same direction for cleaner and more practical cable management.
 
-## **产品参数**
+## **Specifications**
 
-- 外观尺寸：145mm*20mm
-- 电源输入：DC 24V
-- 输出电压：5V 2.7A （峰值）
-- 5V输出接口：4PCS
-- MX3.0 2x2Pin接口
+- Dimensions: 145mm x 20mm
+- Power Input: DC 24V
+- Output Voltage: 5V, 2.7A (Peak)
+- 5V Output Ports: 4
+- MX3.0 2x2 Pin Interfaces
 
 </div>
 
-## **尺寸图**
+## **Dimensions**
 
 <img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Dimensions.webp').default} width="80%"/>
 
-## **外设接口**
+## **Interface**
 
-### 接口示意图
+### Interface Diagram
 
-<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Interface_C1.webp').default} width="80%"/>
+<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Interface1.webp').default} width="80%"/>
 
-### Pin图
+### Pin Description
 
 <img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Pin.webp').default} width="80%"/>
 
-### 连接示意图
+### Connection Diagram
 
-**Panda Branch + Panda Touch + AMS + 3D Printer**
+**Panda Branch + Panda Touch + AMS/AMS Lite + 3D Printer**
 
-<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Diagram_C1.webp').default} width="80%"/>
+<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Diagram1.webp').default} width="80%"/>

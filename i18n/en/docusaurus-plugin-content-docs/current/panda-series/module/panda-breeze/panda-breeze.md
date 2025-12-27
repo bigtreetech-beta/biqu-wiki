@@ -4,92 +4,94 @@
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze.webp').default} width="40%" class="right-image"/>
 
-## 产品简介
+## Introduction
 
-BIQU Panda Breeze 专为 Bambu Lab A1 打印机设计，安装于 X 轴，采用恒流风机，实现均匀送风与大面积覆盖，有效改善搭桥、垂悬与精细部位的成型质量。
+The BIQU Panda Breeze is an auxiliary cooling fan designed for the Bambu Lab A1 3D printer. Mounted on the X-axis, its crossflow fan provides wide, even airflow across the print surface. This significantly improves print quality by enhancing bridging performance, stabilizing overhangs, and capturing fine details.
 
-## 产品特点
+## Feature Highlights
 
-**横流风机:** 风力均匀，大面积覆盖，实现精准冷却。
+**High-Efficiency Crossflow Fan:** Delivers a wide, even stream of air for precise and consistent cooling across the print bed.
 
-**打印质量提升:**  显著改善桥接、垂悬与细节打印效果。
+**Superior Print Quality:**  Dramatically improves performance on complex geometries, including bridging, steep overhangs, and fine details.
 
-**即插即用:** 对接原有安装孔和电源孔，无需改动。
+**Integrated LED Light:** Illuminates the print area for enhanced visibility during the printing process, making monitoring easier.
 
-**坚固结构:** 高品质铝合金机身，兼顾强度与耐用性。
+**Plug-and-Play:** Utilizes the printer's existing mounting points and power connections, no hardware modifications required.
+
+**Durable Aluminum Construction:** Built with a high-quality aluminum-alloy body for exceptional strength, durability, and reliable heat dissipation.
 
 </div>
 
-## 安装指南
+## Installation
 
-**步骤1：安装Panda Breeze**
+**Step 1: Mount Panda Breeze**
 
-1、使用H2.0螺丝刀取下X轴后方的两颗螺丝，如下图所示。
+1、Using a 2.0 mm hex driver, remove the two screws on the back of the X-axis (see reference images).
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation1.webp').default} width="80%"/>
 
-2、复用取下的螺丝，将Panda Breeze与X轴后方的螺丝孔对准后拧紧螺丝以将Panda Breeze牢固地固定在X轴后方。
+2、Reuse those screws. Align Panda Breeze with the screw holes on the back of the X‑axis and tighten to secure it firmly.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation2.webp').default} width="80%"/>
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation3.webp').default} width="80%"/>
 
-**步骤2：安装转接板**
+**Step 2: Install the Adapter Board**
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation4.webp').default} width="80%"/>
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation5.webp').default} width="80%"/>
 
-**步骤3：接线**
+**Step 3: Wiring**
 
-1、如图红圈所示，将风机线插入对应接口。
+1、Plug the Panda Breeze fan cable into its matching connector (see red‑circled area in the images).
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation6.webp').default} width="80%"/>
 
-2、将电源线插入机器后方的MX3.0 插口，见图中红圈位置。
+2、Insert the power cable into the MX3.0 power jack on the rear of the printer (see red circled area).
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation7.webp').default} width="80%"/>
 
-3、按图示插入电源线。
+3、Insert the power cable as indicated in the image.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation8.webp').default} width="80%"/>
 
-4、通过工具头下方的缺口，将工具头后盖揭开。
+4、Open the toolhead rear cover via the notch at the bottom of the toolhead.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation9.webp').default} width="80%"/>
 
-5、断开部件冷却风扇连接，如图红圈所示。
+5、Disconnect the part-cooling fan connector (see red circled area).
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation10.webp').default} width="80%"/>
 
-6、插入风扇信号转接线到原部件冷却风扇接口。
+6、Plug the Panda Breeze fan‑signal adapter cable into the original part‑cooling fan port.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation11.webp').default} width="80%"/>
 
-7、将之前断开的部件冷却风扇接线口与风扇信号转接线对接。
+7、Connect the previously unplugged part‑cooling fan cable to the fan‑signal adapter cable.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation12.webp').default} width="80%"/>
 
-8、如图所示，将所有线缆固定在工具头内，撬开打印头右侧的盖板，根据箭头指示，将风扇信号转接线沿着箭头所示的出口方向布线。
+8、Neatly arrange all cables inside the toolhead. Remove the right‑side cover of the print head and route the fan‑signal adapter cable out along the indicated path.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation13.webp').default} width="80%"/>
 
-9、将后盖按压安装回位，确保固定牢靠。
+9、Press the rear cover back into place and ensure it is securely seated.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation14.webp').default} width="80%"/>
 
-10、打印makerworld（[https://makerworld.com/en/models/1698174-panda-breeze-printed-parts#profileId-1800624](#profileId-1800624)）上提供的侧盖，安装回走线槽，固定线材
+10、Print the side cover from [MakerWorld](https://makerworld.com/en/models/1698174-panda-breeze-printed-parts#profileId-1800624), reinstall the cable duct, and fasten the wiring.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation16.webp').default} width="80%"/>
 
-**步骤4：灯条安装**
+**Step 4: Install the LED Strip**
 
-1. 使用酒精棉片清洁X轴下方，确保表面无尘且无油渍。
-2. 撕开灯条背胶的保护膜。
-3. 对齐灯条与X轴下方，从左侧开始，缓慢向右侧按压，确保灯条固定。
+1. Clean the underside of the X‑axis with an alcohol wipe to remove dust and oil.
+2. Peel off the protective film from the LED strip’s adhesive backing.
+3. Align the strip under the X-axis. Starting at the left, press slowly toward the right to adhere the strip.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation15.webp').default} width="80%"/>
 
-4、来回按压灯条，确保其牢固安装完毕。
+4、Press along the strip several times to ensure a secure installation.
 
 <img src={require('@site/docs/panda-series/module/panda-breeze/img/panda_breeze_installation17.webp').default} width="80%"/>

@@ -4,103 +4,72 @@
 
 <img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Title.webp').default} width="40%" class="right-image"/>
 
-## **产品简介**
+## **Product Profile**
 
-Panda Jet是Bambu Lab X1/P1系列打印机的升级冷却风扇。其特殊的管道可增强喷嘴周围的气流，为灯丝提供全方位冷却，增强桥接和悬垂，同时保持打印视图清晰。
+The Panda Jet is an upgraded cooling fan for Bambu Lab X1/P1 series printers. Its special duct boosts airflow around the nozzle, providing omni-directional cooling to the filament, enhancing bridging and overhangs while keeping the print view clear.
 
-## **规格**
+## **Specifications**
 
-| **产品名称**     | **Panda Jet**                                          |
-| ---------------- | ------------------------------------------------------ |
-| **材料**         | **MJF Nylon**                                          |
-| **尺寸**         | **30.5x52x58mm**                                       |
-| **净重**         | **13.6g**                                              |
-| **兼容的热端**   | **Bambu Lab P1/X1系列、Panda Flow/Revo系列的原创热端** |
-| **兼容的打印机** | **P1P, P1S, X1C, X1E**                                 |
+| **Product Name**        | **Panda Jet**                                                |
+| ----------------------- | ------------------------------------------------------------ |
+| **Material**            | **MJF Nylon**                                                |
+| **Dimensions**          | **30.5x52x58mm**                                             |
+| **Net Weight**          | **13.6g**                                                    |
+| **Compatible Hotends**  | **Original hotends from Bambu Lab P1/X1 series, Panda Flow/Revo series** |
+| **Compatible Printers** | **P1P, P1S, X1C, X1E**                                       |
 
 </div>
 
-## **功能亮点**
+## **Feature Highlights**
 
-- **精确冷却:** 角部出口位置可为喷嘴提供有针对性的气流，显著改善悬垂和桥接。
-- **无障碍视图:** 保持喷嘴的清晰视图。
+**Precision Cooling:** Corner outlet placement delivers targeted airflow to the nozzle, dramatically improving overhangs and bridging.
 
-- **高性能材料:** 由优质MJF尼龙制成，具有卓越的强度、耐热性和耐腐蚀性，可保证更持久的性能。
+**Unobstructed View:** Maintains a clear view of your nozzle.
 
-- **广泛兼容性:** 适用于Bambu Lab P1/X1系列hotends和Panda Flow/Revo系列，提供升级灵活性。
+**High-Performance Material:** Crafted from premium MJF nylon to provide superior strength, heat resistance, and corrosion resistance, for guaranteed longer lasting performance.
 
-## **包装清单**
+**Broad Compatibility:** For Bambu Lab P1/X1 series hotends and the Panda Flow/Revo series, offering upgrade flexibility.
 
-<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Packaging.webp').default} width="600"/>
+## **Packaging List**
 
-## **安装说明**
+<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Packaging.webp').default} width="50%"/>
 
-提示：Bambu Lab P1P和X1打印机的安装过程相同。
+## **Installation Instructions**
 
-**步骤1：拆下前壳体**
-完全拆下前壳体总成，然后断开风扇连接器。
+Tip: The installation process is the same for both the Bambu Lab P1P and X1 printers.
 
-<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation1.webp').default} width="600"/>
+**Step 1: Remove the Front Housing**
+Completely remove the front housing assembly and by disconnecting the fan connector.
 
-**步骤2：拆下原来的风扇导管**
-拧下以下两颗固定原始风扇导管的螺钉。保留螺钉，以便以后重新组装。
+<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation1.webp').default} width="50%"/>
 
-<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation2.webp').default} width="600"/>
+**Step 2: Disassemble the Original Fan Duct**
+Remove the following two screws that secures the original fan duct. Keep the screws for reassembly later.
 
-垂直拉出原来的风扇导管，小心地将其拆下。
+<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation2.webp').default} width="80%"/>
 
-<font size="5" color="red">重要提示：P1/X1系列打印机的最新版原厂风道已用胶粘附在前盖上，请使用平口钳或笔刀小心刮除胶体，避免损坏前盖。若拆卸过程中前盖卡扣受损，panda jetpack仍可安装牢固；若jetpack与前盖间出现较大缝隙，可酌情使用少量速干胶进行固定。</font>
+Carefully remove the original fan duct by pulling it out in a vertical motion.
 
-<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation3.webp').default} width="600"/>
+<font size="5" color="red">Important Notice：Latest Version of the fanduct on the P1/X1 series printer is glued onto the front cover, use a flat cutter or Xacto knife to carefully scrap off the glue to avoid damage to the front cover. If clips on the front cover has been damaged during removal , the jetpack will still install securely, you may need to apply small amount of super glue if large gaps appear between the panda jet and the front cover.</font>
 
-**步骤3：安装Panda Jet**
-将Panda Jet与前壳体上的安装孔对齐。
 
-<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation4.webp').default} width="600"/>
 
-使用您在步骤2中卸下的两个螺钉固定Panda Jet。
+<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation3.webp').default} width="50%"/>
 
-<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation5.webp').default} width="600"/>
+**Step 3: Install the Panda Jet**
+Align the Panda Jet with the mounting holes on the front housing.
 
-**步骤4：重新组装前壳体**
-将风扇连接器重新连接到板上（最上面的插槽），然后重新连接前壳体部件。
+<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation4.webp').default} width="50%"/>
 
-<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation6.webp').default} width="600"/>
+Secure the Panda Jet using the two screws that you removed in Step 2.
 
-**步骤5：检查风扇**
-打开打印机并启用部件冷却风扇。
-确认风扇工作正常。
+<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation5.webp').default} width="80%"/>
 
-## **产品购买链接**
+**Step 4: Reassemble the Front Housing**
+Reconnecting the fan connector onto the board (topmost slot), and then reattach the front housing assembly.
 
-https://biqu.equipment/products/panda-jet-cooling-fan-duct-for-bambulab-x1-p1-hotend-panda-revo
+<img src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation6.webp').default} width="50%"/>
 
-如果您在使用此产品时遇到任何问题，请与我们联系并提交支持工单。
-
-https://biqu3d.com/pages/submit-a-ticket
-
-## **导航**
-
-BIQU官方网站：                            							  http://biqu3d.com
-
-BIGTREETECH官方网站：            				 			 http://bigtree-tech.com
-
-网上商店：                                          				 		https://biqu.equipment
-
-BIGTREETECH官方群: 								  			  https://www.facebook.com/groups/bigtreetech
-
-Discord: 																	   https://discord.gg/hhZsV7zk
-
-Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
-
-微信公众号：																BIGTREETECH 
-
-官方社群：
-
-1群：																			190180312（已满）
-
-2群：																			633401944
-
-微信社群：																   关注微信公众号获取社群二维码
-
-资料获取由微信公众号提供，关注公众号发送及消息即可获取（网盘链接）https://community.biqu3d.com/)
+**Step 5: Check the Fan**
+Turn on the printer and enable the part cooling fan.
+Verify that the fan is working properly.
