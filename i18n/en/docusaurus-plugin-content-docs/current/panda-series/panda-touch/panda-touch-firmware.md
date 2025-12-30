@@ -163,224 +163,226 @@ Currently, 2-step authentication needs to be turned off to enable Cloud Mode on 
 
     <img src={require('@site/docs/panda-series/panda-touch/img/del_account.png').default} alt="" width="600" />
 
-#### 如何切换PandaTouch和打印机之间的通信方式
+#### How to switch the communication between PandaTouch and the printer
 
-* 导航到打印机/组卡页面。
-* 找到要启用或禁用云模式的打印机。
-* 向下滚动到该打印机的`编辑`按钮。
-* 选择`启用云`将打印机与PandaTouch的通信方式切换为云模式。
+* Navigate to the Printers/Group Cards page.
+* Locate the printer for which you want to enable or disable Cloud Mode.
+* Scroll down to the `Edit` button for that printer.
+* Select `Enable Cloud` to switch the way the printer communicates with PandaTouch to Cloud Mode.
 
 :::tip
 
-必须在设置菜单中启用云帐户，否则将无法将该打印机与PandaTouch之间的通信方式设置为云模式。
+The cloud account must be enabled in the setup menu or the communication method between this printer and PandaTouch will not be set to cloud mode.
 
 <img src={require('@site/docs/panda-series/panda-touch/img/switch_work_mode.png').default} alt="" width="600" />
 
 :::
 
-## 键盘输入
+## Keyboard Input
 
-1. 使用此键可以隐藏或显示输入的信息。
-2. 在大写字母和小写字母之间切换。
-3. 切换到`符号输入`。
-4. 切换到`数字输入`。
+1. Use this key to hide or show the entered information.
+2. toggle between uppercase and lowercase letters.
+3. Switch to `Symbol Input`.
+4. toggles to `Number Input`.
 
-- 字母输入
+- Letters Input 
 
     <img src={require('@site/docs/panda-series/panda-touch/img/keyboard_letter.png').default} alt="" width="600" />
 
-- 符号输入
+- Symbol Input
 
     <img src={require('@site/docs/panda-series/panda-touch/img/keyboard_symbol.png').default} alt="" width="600" />
 
-- 数字输入
+- Number Inputs
 
     <img src={require('@site/docs/panda-series/panda-touch/img/keyboard_number.png').default} alt="" width="600" />
 
-## 打印任务和缩略图显示
+## Print jobs and thumbnail displays
 
 <img src={require('@site/docs/panda-series/panda-touch/img/thumbnail_preview.png').default} alt="" width="600" />
 
 :::info
 
-仅显示从Bambu Studio发起的打印任务，该.3mf文件需要小于 20M，X1系列机器暂不支持。
+Only print jobs initiated from Bambu Studio will be displayed, the .3mf file needs to be less than 20M, which is not supported on X1 series machines at this time.
 
-缩略图不匹配: 仅当image文件夹下的图片时间戳与其他打印文件相同时会导致缩略图不匹配。
+Thumbnail Mismatch: Thumbnail mismatch will only occur if the image in the image folder has the same timestamp as another print file.
 
-增强缩略图显示: 在设置页面有个选项用于增强缩略图显示，开启后，从U盘打印或者在SD卡面板操作时都会有比较长的延时。
+Enhanced Thumbnail Display: There is an option in the settings page to enhance the thumbnail display, when turned on, there will be a longer delay when printing from a USB flash drive or operating from the SD card panel.
 
 :::
 
-## 耗材控制
+## Consumables Control
 
-Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型和颜色。用户还可以使用此菜单加载和卸载过滤器。
+The Panda Touch allows the user to configure the type and color of consumables used on the external spool holder and AMS. The user can also load and unload filters using this menu.
 
-执行任何操作时，请确保选择了正确的AMS装置和灯丝槽。当耗材周围有红色边框时，您就会知道耗材已被选中。如果未选择任何内容，则`加载`和`卸载`按钮将变灰。
+When performing any operation, make sure the correct AMS unit and filament slot are selected. You will know that a consumable is selected when it has a red border around it. If nothing is selected, the `Load` and `Unload` buttons will be grayed out.
 
 <img src={require('@site/docs/panda-series/panda-touch/img/filament_screen.png').default} alt="" width="600" />
 
-## 耗材烘干
-Panda Touch允许用户在X1系列和P1S上烘干耗材 
+## Supplies Drying 
+The Panda Touch allows the user to dry supplies on the X1 Series and P1S. 
 
-* 点击烘干按钮
+* Click on the Dry button
 
 <img src={require('@site/docs/panda-series/panda-touch/img/drying.png').default} alt="" width="500" />
 
-* 按照右侧的步骤操作
+* Follow the steps on the right
 
 <img src={require('@site/docs/panda-series/panda-touch/img/filament_dry.png').default} alt="" width="500" />
 
-## 零件跳过
+## Part Skip
 
 :::note
 
-打印任务需要从Bambu Studio 或者 Handy app上发起，不支持重新打印的任务。  
+Print jobs need to be initiated from Bambu Studio or the Handy app, reprinted jobs are not supported.  
 
-以下情况不可用
-- 单盘1个或者64个以上零件 
-- Bambu studio 版本低于V1.6
+Not available in the following cases
+- 1 or more 64 parts on a single disk 
+- Bambu studio version is lower than V1.6.
 
 :::
 
 <img src={require('@site/docs/panda-series/panda-touch/img/skip_objects.gif').default} alt="" width="500" />
 
-## HMS (健康管理系统)
+## HMS (Health Management System)
 
 <img src={require('@site/docs/panda-series/panda-touch/img/hms.png').default} alt="" width="600" />
 
-* 点击Panda Touch的标题栏，HMS通知中心菜单将展开。
-* 当检测到新的HMS通知时，Panda Touch将自动扩展HMS通知中心。
-* 标题栏的左上角将显示已发送HMS通知的打印机的数量。
-* 点击相应的HMS通知，弹出wiki链接二维码，用于解决此问题。
-* 单击`X`可忽略此通知。
-* 单击`全部忽略`可忽略所有通知**注意：** Panda Touch将忽略除X1C以外的所有打印机的通知。由于X1C以规则的间隔重复发送通知信息，因此被忽略的通知可能在此后不久再次出现。
+* Tap the title bar of Panda Touch and the HMS Notification Center menu will expand.
+* The Panda Touch will automatically expand the HMS Notification Center when a new HMS notification is detected.
+* The top left corner of the title bar will display the number of printers that have sent HMS notifications.
+* Clicking on the appropriate HMS notification brings up the wiki link QR code for this issue.
+* Click `X` to ignore this notification.
+* Click `Ignore All` to ignore all notifications **Note: ** Panda Touch will ignore notifications for all printers except X1C. Since the X1C sends repeated notification messages at regular intervals, ignored notifications may reappear shortly thereafter.
 
-## 分组逻辑
-Panda Touch允许您创建多达10个组，每个组可以包含单个或多个打印机。
+## Grouping Logic 
 
-### 如何添加到组
+Panda Touch allows you to create up to 10 groups, each of which can contain single or multiple printers.
 
-* 在已连接的打印机列表中点击+，弹出多功能菜单。
+### How to add to a group
+
+* Click + in the list of connected printers to bring up the multifunction menu.
     
     <img src={require('@site/docs/panda-series/panda-touch/img/press_plus.png').default} alt="" width="600" />
 
-* 选择添加组选项。
+* Select the Add Group option.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/press_add_group.png').default} alt="" width="600" />
 
-* 选择要添加到组中的打印机，并确保选择其中一台作为主机（组中的其他打印机将遵循发送给主机的命令）。
+* Select the printers to be added to the group and make sure that one of them is selected as the host (the other printers in the group will follow the commands sent to the host).
 
     <img src={require('@site/docs/panda-series/panda-touch/img/group_choose_printer.png').default} alt="" width="600" />
 
-* 点击下一步，输入组名，然后单击`确定`。
+* Click Next, enter a group name, and click `OK'.
+
     <img src={require('@site/docs/panda-series/panda-touch/img/group_name.png').default} alt="" width="600" />
 
-* 现在，您可以在打印机列表中看到该组，点击该组将允许您控制整个组，但显示的控件将是组长的控件。
+* Now you can see the group in the list of printers, clicking on the group will allow you to control the entire group, but the controls displayed will be those of the group leader.
 
-### 在打印机组控制和单个打印机控制之间切换
+### Switching between printer group control and individual printer control
 
-* 要控制单个打印机，只需单击与其对应的卡片，您就会注意到顶部栏中的名称更改为该打印机的名称。现在，即使它是组的一部分，您也可以单独向它发送命令。
-* 如果您向单个打印机发送一个需要一些时间的命令（如归位），然后向它所属的组发送一个命令，如果第一个命令仍然繁忙，则第二个命令将被忽略。
-* 要控制整个组，只需单击与该组对应的卡片，您就会注意到顶部栏中的名称更改为组的名称和主机的名称，用正斜杠分隔。现在，您可以向组长发送命令，组中的其他打印机也将随之发送命令。
+* To control an individual printer, simply click on the card that corresponds to it, and you will notice that the name in the top bar changes to the name of that printer. You can now send commands to it individually, even if it is part of a group.
+* If you send a command to an individual printer that takes some time (such as homing) and then send a command to the group it belongs to, the second command will be ignored if the first one is still busy.
+* To control an entire group, simply click on the card that corresponds to that group and you will notice that the name in the top bar changes to the name of the group and the name of the host, separated by a forward slash. You can now send commands to the group leader and the other printers in the group will follow.
 
 <img src={require('@site/docs/panda-series/panda-touch/img/add_group_ok.png').default} alt="" width="600" />
 
-### 从USB打印的注意事项
+### Precautions for printing from USB
 
-尝试从USB打印时，请注意以下要点。
+Please note the following points when attempting to print from USB.
 
-* 确保USB闪存驱动器的文件系统格式化为 `FAT32`。
-* 使用`导出所有盘`选项从Bambu Studio或Orca Slicer导出`.3mf`文件。
+* Ensure that the file system of the USB flash drive is formatted as `FAT32`.
+* Use the `Export All Disks` option to export `.3mf` files from Bambu Studio or Orca Slicer.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/export_3mf.png').default} alt="" width="300" />
 
-* 将切好的 `.3mf` 文件写入USB储存设备的根目录
+* Write the sliced `.3mf` file to the root directory of the USB storage device.
 
-    * Panda Touch仅支持在Bambu Studio的`Build Plate#1`上切片的文件。
-    * Panda Touch仅支持 `.3mf` 文件，不支持 `.gcode` 文件。
-    * Panda Touch仅支持读取根目录中的文件，不支持读取文件夹中的文件。
+    * Panda Touch only supports files sliced on `Build Plate#1` of Bambu Studio.
+    * Panda Touch only supports `.3mf` files, not `.gcode` files.
+    * Panda Touch only supports reading files in the root directory, it does not support reading files in folders.
 
-* 将USB储存设备插入Panda Touch，然后转到`USB储存设备`菜单。
+* Insert a USB storage device into Panda Touch and go to the `USB Storage Device` menu.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/usb_flash_drive.png').default} alt="" width="600" />
 
-### 使用一台打印机开始打印
+### Start printing using one printer
 
-* 点击以选择USB磁盘或SD卡上的文件进行打印。
-* 设置打印参数。根据打印机的不同，您可能会看到：
-    * `热床调平`
-    * `流量校准` (`P1P` and `P1S` 没有这个功能, 因此这些打印机不会显示此选项)
-    * `延时摄影`
-    * `使用 AMS` (Panda Touch将自动识别此打印机是否已插入AMS，然后确定是否需要显示此选项)
-    * `自动断电` (自动识别在线的Panda PWR,开启自动断电功能)
-    * `清除用电量` (自动识别在线的Panda PWR,重置Panda PWR的用电量)
+* Click to select a file on a USB disk or SD card for printing.
+* Set the print parameters. Depending on the printer, you may see:
+    * `Heatbed leveling`.
+    * `Flow Calibration` (`P1P` and `P1S` do not have this feature, so these printers will not show this option)
+    * ``Time-lapse''
+    * `Use AMS` (Panda Touch will automatically recognize if this printer has AMS plugged in and then determine if this option needs to be displayed)
+    * `Auto Power Off` (Automatically recognizes the online Panda PWR and turns on the auto power off feature)
+    * `Clear Power Usage` (Automatically recognizes the Panda PWR online and resets the power usage of the Panda PWR).
 
     <img src={require('@site/docs/panda-series/panda-touch/img/start_print_one.png').default} alt="" width="600" />
 
-* 请确保切片的`.3mf`文件与所选打印机兼容。
-* 如果使用AMS，请确保AMS托盘中的耗材与切片的`.3mf`文件中的耗材一致，因为在打印开始时无法动态映射耗材。
+* Make sure that the `.3mf` file of the slice is compatible with the selected printer.
+* If using AMS, make sure that the consumables in the AMS tray match the consumables in the sliced `.3mf` file, as consumables cannot be dynamically mapped at the start of printing.
 
-* 如果您从USB开始打印，则Panda Touch将开始将USB闪存驱动器中的文件上传到打印机MicroSD卡的根目录。为避免上传问题，请确保：
-    1. 打印机中插入了MicroSD卡。
-    2. MicroSD卡的剩余容量足以写入要上传的文件。
+* If you start printing from USB, the Panda Touch will begin uploading files from the USB flash drive to the root directory of the printer's MicroSD card. To avoid upload issues, make sure:
+    1. a MicroSD card is inserted in the printer.
+    2. the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/uploading.png').default} alt="" width="600" />
 
-* 上传完成后，将开始打印。对于非常大的`.3mf`文件，传输到每台打印机可能需要几分钟的时间。
+* When uploading is complete, printing will begin. For very large `.3mf` files, the transfer to each printer may take several minutes.
 
-* 开始打印后，Panda Touch将自动跳转到主界面并显示打印机数据。
+* Once printing has started, Panda Touch will automatically jump to the main screen and display the printer data.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/start_print_one_ing.png').default} alt="" width="600" />
 
-### 组打印
+### Group printing
 
-* 仅支持存储在USB磁盘上的文件进行组打印。
-* 点击以选择USB磁盘上要打印的文件。
-* 设置打印参数。根据组中的打印机，可能会看到
-    * `热床调平`
-    * `流量校准` (`P1P`和`P1S`没有此功能，因此这些型号的打印机将不会显示此选项。)
-    * `延时摄影`
-    * `使用 AMS` (Panda Touch将自动识别此打印机是否已插入AMS，然后确定是否需要显示此选项。)
-    * `自动断电` (自动识别在线的Panda PWR,开启自动断电功能)
-    * `清除用电量`(自动识别在线的Panda PWR,重置Panda PWR的用电量)
+* Group printing is supported only for files stored on USB disks.
+* Click to select the files on the USB disk to be printed.
+* Set the print parameters. Depending on the printers in the group, you may see
+    * `Heatbed leveling`.
+    * `Flow Calibration` (The `P1P` and `P1S` do not have this feature, so this option will not be displayed for these models.)
+    * `Time lapse photography`.
+    * `Use AMS` (The Panda Touch will automatically recognize if this printer has an AMS plugged in and then determine if this option needs to be displayed.)
+    * `Auto Power Off` (Automatically recognizes a Panda PWR that is online, and turns on the Auto Power Off feature.)
+    * `Clear Power Usage` (automatically recognizes the Panda PWR that is online, resets the power usage of the Panda PWR)
 
-* 特定组的复选框打印选项将基于组中功能最强大的机器可用的功能。例如，您正在使用包含X1C\P1P\P1S的组，您将有激光雷达扫描选项可用，但此选项将仅发送给支持它的组中的打印机。
+* Checkbox print options for a particular group will be based on the features available on the most powerful machine in the group. For example, if you are using a group that contains X1C\P1P\P1S, you will have the Lidar Scan option available, but this option will only be sent to printers in the group that support it.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/start_print.png').default} alt="" width="600" />
 
-* Panda Touch将生成一个可用打印机列表供您选择。
-* 已忙的打印机和组将被排除在此列表之外。这意味着，如果组中的单个打印机已经繁忙，则您将无法打印到该组中的任何打印机。这允许组始终保持彼此同步。
+* Panda Touch will generate a list of available printers for you to choose from.
+* Printers and groups that are already busy will be excluded from this list. This means that if a single printer in a group is already busy, you will not be able to print to any of the printers in that group. This allows groups to always stay synchronized with each other.
 
-* 请确保切片的`.3mf`文件与所选打印机兼容。
-* 如果使用AMS，请确保AMS托盘中的耗材与切片的`.3mf`文件中的耗材一致，因为在打印开始时无法动态映射耗材。
+* Make sure that the sliced `.3mf` file is compatible with the selected printer.
+* If using AMS, make sure that the consumables in the AMS tray match the consumables in the sliced `.3mf` file, as it is not possible to dynamically map consumables at the start of printing.
 
-* 如果使用AMS，请确保AMS托盘中的耗材与切片的`.3mf`文件中的耗材一致，因为无法动态传输。Panda Touch将开始将USB闪存驱动器中的文件上传到打印机MicroSD卡的根目录。为了避免上传问题，请确保在打印开始时绘制耗材:
-    1. 打印机中插入了MicroSD卡。
-    2. MicroSD卡的剩余容量足以写入要上传的文件。
+* If using AMS, make sure that the consumables in the AMS tray match the consumables in the sliced `.3mf` file, as it is not possible to dynamically transfer them.The Panda Touch will begin uploading files from the USB flash drive to the root directory of the printer's MicroSD card. To avoid upload issues, make sure that you plot supplies at the start of printing:.
+    1. a MicroSD card is inserted in the printer.
+    2. the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/udisk_upload.png').default} alt="" width="600" />
 
 
-* 上传完成后，将开始打印。对于非常大的`.3mf`文件，传输到每台打印机可能需要几分钟的时间。
+* When uploading is complete, printing will begin. For very large `.3mf' files, transfer to each printer may take several minutes.
 
     <img src={require('@site/docs/panda-series/panda-touch/img/group_printing.png').default} alt="" width="600" />
 
-* 开始打印后，您将被带到打印摘要页面，在该页面上，组中每个打印机的状态都在单独的卡片上进行了摘要。
+* After you start printing, you will be taken to the Print Summary page where the status of each printer in the group is summarized on a separate card.
 
-### 组打印描述
+### Group Printing Description
 
-当选择一个组并且组中的多台打印机正忙于打印时，Panda Touch将显示`多台打印`菜单，如下所示。
+When a group is selected and multiple printers in the group are busy printing, the Panda Touch displays the `Multiple Printing` menu as shown below.
 
 <img src={require('@site/docs/panda-series/panda-touch/img/multi_printing.png').default} alt="" width="600" />
 
-此菜单中存在以下组控件：
+The following groups of controls exist in this menu:
 
-1. 打开/关闭当前打印列表中打印机的腔室LED。
-2. 停止当前打印列表中的所有打印作业。
-3. 暂停/恢复当前打印列表中的所有打印作业。
+1. turns on/off the chamber LEDs for the printers in the current print list.
+2. stops all print jobs in the current print list.
+3. pauses/resumes all print jobs in the current print list.
 
-### 组打印设置延时
+### Group Print Setup Delay
 
-在组打印时根据这个时间来进行延时，如果当前打印机加热完成或者时间到了，就发送打印任务到下一台。
+The delay is based on this time during group printing, so that if the current printer heats up or the time is up, the print job is sent to the next one.
 
 <img src={require('@site/docs/panda-series/panda-touch/img/group_delay.png').default} alt="" width="600" />
