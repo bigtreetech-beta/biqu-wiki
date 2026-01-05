@@ -2,6 +2,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+import {default as custom_code_themes} from './src/theme/prism-custom-code-themes';
+
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -15,7 +20,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://bigtreetech-beta.github.io',
+  url: 'https://global.biquwiki.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -53,13 +58,44 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
-
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
+  ],
+  stylesheets: [
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+    },
+  ],
+
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+
+        // For Docs using Chinese, it is recomended to set:
+        language: ["en", "zh"],
+
+        // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
+        // forceIgnoreNoIndex: true,
+      }),
+    ],
+  ],
+
+  plugins: [
+    'docusaurus-plugin-image-zoom',
   ],
 
   themeConfig: {
@@ -129,9 +165,18 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} BIQU Wiki Team`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: custom_code_themes,
+      darkTheme: custom_code_themes,
+      additionalLanguages: ['bash','systemd'],
     },
+    zoom: {
+      selector: '.markdown > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(20, 20, 20)'
+      },
+      config: {}
+    }
   } satisfies Preset.ThemeConfig,
 };
 
