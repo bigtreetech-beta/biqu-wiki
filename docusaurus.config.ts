@@ -42,12 +42,12 @@ const config: Config = {
     localeConfigs: {
       "zh-Hans": {
         label: '简体中文',
-        baseUrl: '/zh'
+        baseUrl: '/zh',
       },
       "en": {
         label: 'English',
         baseUrl: '/en',
-        htmlLang: 'en-US',
+        htmlLang: 'en',
       },
     }
   },
