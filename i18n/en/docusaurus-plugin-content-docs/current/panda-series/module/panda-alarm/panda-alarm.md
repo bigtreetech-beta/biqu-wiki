@@ -46,17 +46,17 @@ The plug-and-play device sends real-time notifications for print completion, fai
 
 :::warning
 
-- Panda Alarm 只监听打印机的状态，不控制打印机，所以 Panda Alarm 的功能不会受拓竹固件更新的影响。有关受影响和不受影响的更多信息，请参阅[Bambu Lab 官方公告](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/)。
+- **Printer Monitoring Only**: Panda Alarm  is a monitoring-only device, meaning it reads the printer's status but does not control it. This key distinction ensures its core functionality remains unaffected by Bambu Lab firmware updates. For a detailed breakdown on which functions are affected or unaffected by updates, please consult the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
 
-- 确保您的设备运行了[最新版本的固件](https://github.com/bigtreetech/PandaAlarm/tree/master/Firmware)。
+- **Firmware**: Ensure your device is running the latest [firmware version](https://github.com/bigtreetech/PandaAlarm/tree/master/Firmware).  
 
-- Panda Alarm 仅支持连接到2.4G Wi-Fi。
+- **Wi-Fi Support**: Panda Alarm supports only 2.4G Wi-Fi connections.  
 
-- 在设置界面连接 Panda Alarm 的AP热点后，直接跳转到的Web UI界面，部分手机由于权限的问题可能无法在此界面上传更新MP3音频和固件，请到浏览器中访问Web UI再进行此类上传文件的操作。
+- **Web UI Access**: After connecting to the Panda Alarm AP hotspot in your phone settings menu, you will be redirected directly to the Web UI interface. Due to permission issues on some mobile phones, it may not be possible to upload MP3s, or firmware updates on this page. Please access the Web UI through a browser to perform file uploads.
 
-- 如果您在使用过程中遇到任何问题，或者对未来的硬件或固件版本有建议，欢迎前往Github[提交issues](https://github.com/bigtreetech/PandaAlarm/issues)与我们保持联系。
+- **GitHub Feedback**: If you encounter any issues during use, or if you have suggestions for future hardware or firmware versions, feel free to [submit](https://github.com/bigtreetech/PandaAlarm/issues) them on GitHub to stay in touch with us.  
 
-- 如果您有任何此wiki无法解决的问题，请通过以下方式联系客户支持：`support01@bigtree-tech.com`.
+- **Further Support**: For questions not addressed in this wiki, please contact customer support at: [support01@bigtree-tech.com](mailto:support01@bigtree-tech.com).
 
 :::
 
@@ -349,9 +349,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 2. To reconfigure the Wi-Fi connection for Panda Alarm, click the **Wi-Fi Network Configuration** button to return to the Wi-Fi configuration screen.
 
-    > <font size="2">Tip: Changing the Panda Alarm's Wi-Fi network will change its IP address, interrupting communication with devices on the old network. To maintain access during configuration, first connect your device directly to the Panda Alarm's hotspot, then update the network settings.
-
-</font>
+    > <font size="2">Tip: Changing the Panda Alarm's Wi-Fi network will change its IP address, interrupting communication with devices on the old network. To maintain access during configuration, first connect your device directly to the Panda Alarm's hotspot, then update the network settings.</font>
 
 3. Once configured, ensure your devices are connected to the same Wi-Fi network as the Panda Alarm. Access the Web UI by entering its IP address in a browser. For convenience, bookmark this address.
 
@@ -363,8 +361,8 @@ The following **7 printer statuses** share light effects and default **colors** 
 
     - The length must be between 8 and 32 characters.
 
-    After changing, click **Set Hostname** to apply the new hostname to Panda Alarm. A pop-up confirms the update was successful. The new hostname will take effect after a reboot. Click **OK** to reboot Panda Alarm immediately, or click the **x** button to close the window without rebooting.
-    
+    - After changing, click **Set Hostname** to apply the new hostname to Panda Alarm. A pop-up confirms the update was successful. The new hostname will take effect after a reboot. Click **OK** to reboot Panda Alarm immediately, or click the **x** button to close the window without rebooting.
+
     <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/hostname.jpg').default} width="45%"/>
 
 ### AP Interface
@@ -373,7 +371,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 The next screen in the Panda Alarm Web UI is the **AP interface**. The Panda Alarm AP controls the device's direct Wi-Fi hotspot. You can disable this hotspot, but it will automatically re-enable if the Panda Alarm loses its connection to the configured network, ensuring a fail-safe access point to reconnect if the configured Wi-Fi is unavailable.
 
-**Tip:** If your device is connected to the Web UI through the Panda Alarm AP hotspot, disabling or changing the AP settings will disconnect your device. To maintain access, connect your device to the same Wi-Fi network as Panda Alarm before making any changes.<
+If your device is connected to the Web UI through the Panda Alarm AP hotspot, disabling or changing the AP settings will disconnect your device. To maintain access, connect your device to the same Wi-Fi network as Panda Alarm before making any changes.
 
 :::
 
