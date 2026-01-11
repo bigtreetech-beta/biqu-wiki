@@ -3,8 +3,10 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 type FeatureItem = {
-  title: string;
+  title: ReactNode;
   prod_img: string;
   url: string;
   description: ReactNode;
@@ -12,12 +14,12 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Panda Touch',
+    title: <Translate>Panda Touch</Translate>,
     prod_img: require('@site/static/img/prod-img/panda_touch.png').default,
     url: 'docs/panda-series-intro',
     description: (
       <>
-        An alternative or a replacement screen for the Bambu P1P and Bambu P1S.
+        <Translate>适用于Bambu P1P和Bambu P1S的替代或替换屏幕。</Translate>
       </>
     ),
   },
