@@ -360,5 +360,11 @@
   "theme.SearchPage.noResultsText": {
     "message": "No documents were found",
     "description": "The paragraph for empty search result"
+  },
+  "Panda Touch": {
+    "message": "Panda Touch"
+  },
+  "适用于Bambu P1P和Bambu P1S的替代或替换屏幕。": {
+    "message": "An alternative or a replacement screen for the Bambu P1P and Bambu P1S."
   }
 }
